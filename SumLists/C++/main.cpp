@@ -81,6 +81,7 @@ int main() {
     insert(list2, 5);
     std::cout << "List2:  ";
     printList(list2);
+    std::cout << "Sumlist :";
     Node *list3 = SumLists(list1, list2);
     printList(list3);
     return 0;
