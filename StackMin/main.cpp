@@ -1,7 +1,11 @@
 #include <iostream>
 #include <limits>
 #include <stack>
-
+/**
+ * StackMin : How would you design a stack which , in addition to push and pop, has
+ * a function min which returns the minimum elements? Push,pop, min should all operate in o(1) time.
+ *
+ */
 template<typename T>
 class StackMin {
 private:
